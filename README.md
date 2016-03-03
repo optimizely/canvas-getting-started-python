@@ -54,6 +54,11 @@ After successfully decoding, we leverage the access_token to issue requests on t
 We then iterate through each experiment and cache the experiment status. The front-end then renders these results. 
 
 
+### Next Steps
+
+Currently, this app only works locally and is available through the Canvas sandbox app. If you would like to publish for the Optimizely community, please follow these steps. <steps>  
+
+
 ## Need Help
 
 * Canvas app ideas (Community Driven): link 
