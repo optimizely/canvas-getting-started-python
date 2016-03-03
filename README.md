@@ -12,7 +12,7 @@ Read the Canvas Documentation [x]
 
 This app simply displays the current status of experiments in a given project. Here we leverage the Canvas Sandbox App, which takes an application running on localhost and runs it natively within Optimizely in an iframe. This Sandbox app makes it really easy for developers to build and test applications before formally submitting as a Canvas App. 
 
-[screenshot]
+![Screenshot](https://raw.githubusercontent.com/optimizely/canvas-getting-started-python/master/static/img/canvas-screenshot.png)
 
 ###Deploying the App
 1. Create an Optimizely Developer Account [link x]
@@ -53,11 +53,9 @@ After successfully decoding, we leverage the access_token to issue requests on t
 
 We then iterate through each experiment and cache the experiment status. The front-end then renders these results. 
 
-
 ### Next Steps
 
-Currently, this app only works locally and is available through the Canvas sandbox app. If you would like to publish for the Optimizely community, please follow these steps. <steps>  
-
+Currently, this app only works locally and isn't abviabilbe 
 
 ## Need Help
 

@@ -8,7 +8,7 @@ from flask import Flask, request, render_template
 import optimizely
 import optimizely_canvas_sdk
 
-# Note: I'm sharing this because the Canvas Demo App can only be used locally
+# Note: I'm sharing this because the Canvas Sandbox App can only be used locally
 CLIENT_SECRET = 'vhxUuxUXruG3ZJ-AYOrrgLGDZp-bGqVkuEQpEldYJcE'
 
 application = Flask(__name__)
