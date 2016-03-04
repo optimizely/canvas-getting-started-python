@@ -4,7 +4,7 @@
 
 Canvas allows developers to easily build integrations on the Optimizely platform. Within a Canvas App, developers can programmatically access information about the current user, including their OAuth token. Developers can build apps that further improve their Optimizely usage or extend functionality. 
 
-* Check out the apps that have already been built [x].
+* View current Canvas Apps [x].
 
 * Canvas Documentation [x] 
 
