@@ -16,11 +16,11 @@ This app simply displays the current status of experiments in a given project. H
 
 ###Deploying the App
 1. Create an Optimizely [Developer Account](https://www.optimizely.com/?modal=devsignup)
-2. In your dashboard, click the Apps tab and turn on Canvas Sandbox
+2. In your dashboard, click the Apps tab and turn on the Canvas Sandbox app
 3. Clone repo locally.
 4. Install requirements: `pip install -r requirements.txt`
 5. Run the app locally: `python application.py`
-6. View the app from within the Canvas Sandbox
+6. View the app from within the Canvas Sandbox app
 7. Lastly, enable "Load unsafe scripts". [Screenshot](https://github.com/optimizely/canvas-getting-started-python/blob/master/static/img/unsafe-scripts.png) 
 
 **Please note:** We publicly exposed the Client Secret for use with the Canvas Sandbox App because this app will only run content on localhost within Optimizely, which does not present a security risk. <b> Normally</b> you would not want to share your Client Secret publicly. 
@@ -55,7 +55,7 @@ We then iterate through each experiment and cache the experiment status. The fro
 
 ### Next Steps
 
-Currently, this app works locally and is available for testing through the Canvas sandbox app. If you would like to publish your app for the Optimizely community, please follow these steps: http://developers.optimizely.com/canvas/#register-your-app. [link]
+Currently, this app works locally and is available for testing through the Canvas Sandbox app. If you would like to publish your app for the Optimizely community, please follow these steps: http://developers.optimizely.com/canvas/#register-your-app. [link]
 
 
 ## Getting Help
