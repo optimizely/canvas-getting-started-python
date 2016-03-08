@@ -1,48 +1,27 @@
 <!doctype html>
-<head>
-   <title>Canvas Demo</title>
-   <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-   <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon"/>
-   <style>
-      .tb {
-      display: table;
-      max-width:80%;
-      margin: 10px auto;
-      }
-      .tbr {
-      display: table-row;
-      }
-      .tbc {
-      display: table-cell;
-      vertical-align: middle;
-      }
-      .tb img {
-      height: 140px;
-      max-width:100%;
-      }
-   </style>
-</head>
-<body>
-   <!-- Github Ribbon -->
-   <a href="https://github.com/mauerbac/birthday-reminder"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/github.png" alt="Fork me on GitHub"></a>
-   <div class="container">
-      <div class="jumbotron">
-         <center>
-            <h1>Canvas Demo App</h1>
-            <br>
-            <p class="lead">This app displays the status of your experiments within a project.<br />Read the <a href="" > tutorial</a>!</p>
-         </center>
+<html lang="en" class="height--1-1">
+  <head>
+     <title>Canvas Demo</title>
+     <!-- Latest compiled and minified OUI stylesheet -->
+     <link rel="stylesheet" href="https://d2uaiq63sgqwfs.cloudfront.net/8.0.0/oui.css">
+  </head>
+  <body class="background--faint height--1-1">
 
-         <h2>Experiment Details: </h2>
-         <div style="font-size:16px;line-height:1.5;">
-            <ul>
-               {% for experiment in data %}
-               <li>The experiment: <b>{{ experiment[0] }}</b> is currently in the status: <b>{{ experiment[1] }}</b></li>
-               {% endfor %}
-            </ul>
-         </div>
+  <!-- Github Ribbon -->
+    <a href="https://github.com/optimizely/canvas-getting-started-python" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/github.png" alt="Fork me on GitHub"></a>
+    <div class="flex flex-justified--center soft-quad--ends soft-double--bottom background--white">
+      <div class="max-width--large">
+        <h1 class="text--center">Canvas Demo App</h1>
+        <h3 class="text--center">This app displays the status of your experiments within a project.<br /><a href="https://github.com/optimizely/canvas-getting-started-python" target="_blank" class="button button--highlight push-double--top">Read the tutorial on Github.</a></h3>
+        <h4 class="push-quad--top label">Experiment Details: </h4>
+        <div class="flex push--ends">
+          <ul class="block-list">
+            {% for experiment in data %}
+              <li>The experiment: <strong>{{ experiment[0] }}</strong> is currently in the status: <strong>{{ experiment[1] }}</strong></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-   </div>
-</body>
+    </div>
+  </body>
 </html>
