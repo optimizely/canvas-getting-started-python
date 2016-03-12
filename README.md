@@ -56,4 +56,4 @@ You can use the Canvas Sandbox as a starting point for your own app. If you are 
 
 * [App ideas](http://optimize.ly/app-ideas) (Community Driven) 
 * Apps Developer Guide: http://developers.optimizely.com/apps
-* Questions? Shoot us an email: developers@optimizely.com or use [Gitter](https://gitter.im/optimizely/canvas!)
+* Questions? Shoot us an email: developers@optimizely.com or use [Gitter](https://gitter.im/optimizely/apps)!
