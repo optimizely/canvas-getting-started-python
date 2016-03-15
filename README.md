@@ -24,11 +24,11 @@ Using the instructions below, you can run the app locally as an iframe within Op
 
 ###Deploying the App
 1. Login to or create an Optimizely [Developer Account](https://www.optimizely.com/?modal=devsignup).
-2. In your dashboard, click the Apps tab and turn on the Canvas Sandbox app.
+2. In your dashboard, click the Apps tab and turn on the 'Your Canvas Sandbox' app.
 3. Clone this repo locally.
 4. Install requirements: `pip install -r requirements.txt`.
 5. Run the app locally: `python application.py`.
-6. View the app by clicking on the Canvas Sandbox tab from the Optimizely dashboard.
+6. View the app by clicking on the Your Canvas Sandbox tab from the Optimizely dashboard.
 7. Enable "Load unsafe scripts" by clicking the grey shield on the right hand side of your address bar.  [Screenshot](https://github.com/optimizely/canvas-getting-started-python/blob/master/static/img/unsafe-scripts.png) (Your browser will try to prevent the iframe from loading because the Optimizely app is on https, while your Canvas Sandbox app is on http). 
 
 **Please note:** We publicly exposed the Client Secret for use with the Canvas Sandbox App because this app will only run content on localhost within Optimizely, which does not present a security risk. <b> Normally</b> you would not want to share your Client Secret publicly. 
