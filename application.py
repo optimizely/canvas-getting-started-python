@@ -19,6 +19,8 @@ application.secret_key = os.urandom(24)
 def index():
     # Access the signed_request
     signed_request = request.args.get('signed_request')
+    if not signed_request:
+        return render_template('error.html')
 
     # Decode the signed request
     user_info = optimizely_canvas_sdk.extract_user_context(signed_request, CLIENT_SECRET)
