@@ -1,6 +1,6 @@
-#Getting Started with Canvas (Python)
+# Getting Started with Canvas (Python)
 
-##Canvas Overview
+## Canvas Overview
 
 Canvas allows developers to easily build integrations on the Optimizely platform. Within a Canvas App, developers can programmatically access information about the current user with the user’s OAuth token. Developers can build apps that further improve their Optimizely usage or extend functionality. 
 
@@ -8,7 +8,7 @@ Canvas allows developers to easily build integrations on the Optimizely platform
 
 * Canvas [Developer Guide](http://developers.optimizely.com/apps/).
 
-##Demo App
+## Demo App
 
 We’ve created a demo app that shows you:
 
@@ -22,7 +22,7 @@ Using the instructions below, you can run the app locally as an iframe within Op
 
 ![Screenshot](https://github.com/optimizely/canvas-getting-started-python/blob/master/static/img/canvas-screenshot.png)
 
-###Deploying the App
+### Deploying the App
 1. Login to or create an Optimizely [Developer Account](https://www.optimizely.com/?modal=devsignup).
 2. In your dashboard, click the Apps tab and turn on the 'Your Canvas Sandbox' app.
 3. Clone this repo locally.
